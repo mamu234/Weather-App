@@ -8,53 +8,28 @@
     <link rel="stylesheet" href="weather.css">
 </head>
 <body>
-
-    <div class="header">
-    <h1>WEATHER APP</h1>
-        <div>
-          <input type="text"   id="input" placeholder="Enter city name">
-          <button id="search">Search</button>
-        </div>
-
+<h1>Search for the current weather for all the cities in the world</h1>
+    <div class="display">
+        <h1 class="name"></h1>
+        <p class="desc"></p>
+        <p class="temp"> </p>
     </div>
+
+<div class="input">
+    <input type="text" class="inputValue" placeholder="Enter a city">
+    <input type="submit" value="submit" class="button">
+</div>
 
     <main>
-        <div class="waether">
-            <h2 id="city"> Delhi ,In</h2>
-            <div class="temp-box">
-                <img src="images/weathericon.png" alt="" id="img">
-                <p id="temperature">26 °C</p>
-            </div>
-            <span id="clouds">Broken Clouds</span> 
+        <div class="weather">
+                <img src="./images/weathericon.png" alt="" id="img">
         </div>
-            <div class="divider1"></div>
-            <div class="forecastH">
-                <p class="cast-header">Upcomingforecast</p>
-                <div class="templist">
-                    <div class="next"> 
-                    </div>
-                    <p class="time">8:30 PM</p>
-                    <p> 29 °C / 29 °C</p>
-                </div>
-                <p class="desc">Light Rain</p>
-            </div>
-            <div class="next">
-                <div>
-                    <p class="time">8:30 PM</p>
-                    <p>29 °C / 29 °C</p>
-                </div>
-                <p class="desc">Light Rain</p>
-            </div>
-            <div class="next">
-                <div>
-                    <p class="time">8:30 PM</p>
-                    <p>29 °C / 29 °C</p>
-                </div>
-                <p class="desc">Light Rain</p>
-            </div>
-
-        </div>
-    </div>
     </main>
+
+    
+
+
+
+    <script src="weather.js"></script>
 </body>
 </html>
