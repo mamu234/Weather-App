@@ -1,5 +1,4 @@
 
-=======
 ## Description: 
 This is a weather app that enable users search for the weather conditions in various cities all over the world.Using Openweathermap API, the app shows you how to deal with an open api especially the fetch api using javascript promises.
 
