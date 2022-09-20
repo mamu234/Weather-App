@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Description
 The weather app enable users search for the weather conditions in various cities all over the world 
 
@@ -25,3 +26,9 @@ Live Site:
 
 Licence MIT LICENCE
 
+=======
+## Description: 
+This is a weather app that enable users search for the weather conditions in various cities all over the world 
+
+using Openweathermap API for beginners | Javascript tutorial . This shows you how to deal with an open api for beginners. This will be using fetch api 
+>>>>>>> 24cf4612ef59e4085e494e7b11fa344e1538c19a
