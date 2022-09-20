@@ -17,39 +17,56 @@ body{
     background-position: center;
     background-size: cover;
 }
+h1{
+color:rgb(214,147,45);
+text-decoration: underline;
+font-family: 'Orbitron', sans-serif;
+text-align: center;
+justify-content: center;
+font-weight:30px;
+font-size: 50px;
+letter-spacing: 0.4rem;
+}
 
 .input{
-    text-align: center;
+    height: 40px;
+    width: 40px;
+    font-size: 35px;
+    padding: 10px 20px;
+    outline:none;
+    border:none;
+    border-radius: 15px;
+    margin-top: 10%;
+    margin-left: 28%;
+    
 }
 input[type='submit']{
-   height:50px;
-   width:600ppx;
    font-family:'Nunito', sans-serif;
    font-weight: bold;
    font-size: 20px;
    border: none;
-   border-radius:2px ;
+   border-radius:8px ;
    padding: 10px 10px;
+   margin-left:400px;
+   
+
 }
 input[type='text']{
-    height:50px;
-    width:600ppx;
-    font-family:'Nunito', sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-    border: none;
-    border-radius:2px ;
-    padding: 10px 10px;
+    background: cadetblue;
+    padding: 10px;
+    padding-left: 40%;
+    color: aliceblue;
+    outline: none;
+    font-size: 50px;
+    border-radius: 15px; 
+    margin-left: 100px;
  }
 
 
 
 .display{
     text-align: center;
+    font-size: 40px;
+    color:whitesmoke;
 }
-.weather img{
-    width: 50%;
-    height: 50%;
-    border-radius: 30%;
-    background: rgba(240, 248, 255, 0.408);
-}
+
